@@ -1,0 +1,22 @@
+{
+  "name": "xkcd",
+  "version": "1.0.0",
+  "description": "XKCD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec npm start",
+    "start": "micro",
+    "deploy": "now"
+  },
+  "keywords": [
+    "xkcd",
+    "api"
+  ],
+  "author": "Zander Martineau",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "micro": "^9.0.0"
+  }
+}
