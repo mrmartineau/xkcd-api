@@ -32,4 +32,6 @@ This is the same exact response that the official [XKCD API](https://xkcd.com/js
 }
 ```
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2254fd6b4db3e7345ddd)
+
 > Made by [ZΛNDΞR :zap:](https://github.com/mrmartineau/) by using [Micro](https://github.com/zeit/micro) & hosted on [now](https://zeit.co/now) by [zeit](https://zeit.co)
