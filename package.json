@@ -1,11 +1,11 @@
 {
   "name": "xkcd",
-  "version": "1.0.0",
-  "description": "XKCD API",
+  "version": "1.1.0",
+  "description": "A free, CORS-enabled version of the XKCD API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec npm start",
+    "dev": "micro-dev",
     "start": "micro",
     "deploy": "now"
   },
@@ -17,6 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
-    "micro": "^9.0.0"
+    "micro": "^9.0.0",
+    "micro-cors": "^0.1.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.0"
   }
 }
